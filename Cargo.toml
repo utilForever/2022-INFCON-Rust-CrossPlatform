@@ -2,5 +2,6 @@
 members = [
     "rust-cross",
     "rust-cross-ios",
+    "rust-cross-web",
 ]
 default-members = ["rust-cross"]
