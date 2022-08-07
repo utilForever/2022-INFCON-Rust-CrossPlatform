@@ -1,5 +1,6 @@
 [workspace]
 members = [
     "rust-cross",
+    "rust-cross-ios",
 ]
 default-members = ["rust-cross"]
