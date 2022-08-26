@@ -2,35 +2,35 @@
 
 INFCON 2022 - Rust 크로스 플랫폼 프로그래밍 발표 자료 및 예제 코드
 
-## 바로 가기
+## Contents
 
-- [발표 자료](./인프콘%202022%20-%20Rust%20크로스%20플랫폼%20프로그래밍.pdf)
+- [Presentation](./인프콘%202022%20-%20Rust%20크로스%20플랫폼%20프로그래밍.pdf)
 
-- 보충 자료
+- Supplement
 
-- 에제 코드
-  - Rust 라이브러리
+- Example
+  - Core library
     - [rust-cross](./rust-cross)
     - [rust-cross-ios](./rust-cross-ios)
     - [rust-cross-web](./rust-cross-web)
-  - [iOS 예제](./example-ios)
-  - [웹 예제](./example-web/)
+  - [iOS Example](./example-ios)
+  - [Web Example](./example-web/)
 
-## 예제 코드 실행 방법
-
-TBA
-
-## 참고하면 좋은 자료들
+## Quick Start
 
 TBA
 
-## 기여 방법
+## References
 
-언제나 환영합니다. 문제 또는 버그를 제보하거나 저장소를 포크한 뒤 프로젝트에 도움이 될 것으로 생각되는 기능을 구현해 PR로 보내주시면 됩니다. 궁금한 사항이 있다면 저에게 연락해주세요.
+TBA
 
-## 연락 방법
+## How To Contribute
 
-이메일 주소(utilForever at gmail.com)를 통해 연락해주시면 됩니다. 저는 여러분들의 질문에 답하거나 어려움을 겪고 있는 어떤 문제에 도움을 줄 수 있어서 기쁩니다.
+Contributions are always welcome, either reporting issues/bugs or forking the repository and then issuing pull requests when you have completed some additional coding that you feel will be beneficial to the main project. If you are interested in contributing in a more dedicated capacity, then please contact me.
+
+## Contact
+
+You can contact me via e-mail (utilForever at gmail.com). I am always happy to answer questions or help with any issues you might have, and please be sure to share any additional work or your creations with me, I love seeing what other people are making.
 
 ## License
 
