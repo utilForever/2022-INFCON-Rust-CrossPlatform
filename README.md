@@ -9,6 +9,12 @@ INFCON 2022 - Rust 크로스 플랫폼 프로그래밍 발표 자료 및 예제 
 - 보충 자료
 
 - 에제 코드
+  - Rust 라이브러리
+    - [rust-cross](./rust-cross)
+    - [rust-cross-ios](./rust-cross-ios)
+    - [rust-cross-web](./rust-cross-web)
+  - [iOS 예제](./example-ios)
+  - [웹 예제](./example-web/)
 
 ## 예제 코드 실행 방법
 
