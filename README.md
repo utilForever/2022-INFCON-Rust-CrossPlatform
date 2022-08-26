@@ -18,7 +18,29 @@ INFCON 2022 - Rust 크로스 플랫폼 프로그래밍 발표 자료 및 예제 
 
 ## Quick Start
 
-TBA
+### Rust + WebAssembly
+
+1. Run this command inside the `rust-cross-web` directory:
+
+```sh
+wasm-pack build
+```
+
+2. Copy `pkg` folder to `example-web` directory.
+
+### WebAssembly with TypeScript
+
+1. Ensure that the local development server and its dependencies are installed by running this command within the `example-web` directory:
+```sh
+npm install
+```
+
+2. Run this command from within the `example-web` directory:
+```sh
+npm run start
+```
+
+3. Go to `http://localhost:8080/`
 
 ## References
 
