@@ -113,3 +113,13 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# TypeScript
+node_modules/
+dist/
+
+# Rust + WebAssembly
+bin/
+pkg/
+wasm-pack.log
+Footer
