@@ -16,6 +16,32 @@ INFCON 2022 - Rust 크로스 플랫폼 프로그래밍 발표 자료 및 예제 
   - [iOS Example](./example-ios)
   - [Web Example](./example-web/)
 
+## Prerequisite
+
+1. Install [Rust](https://www.rust-lang.org/learn/get-started).
+
+### Rust + iOS
+
+1. Install [Xcode](https://developer.apple.com/xcode/).
+
+2. Install Xcode Command Line Tools.
+
+```sh
+xcode-select --install
+```
+
+3. Add iOS architectures to support cross-compile.
+
+```sh
+rustup target add aarch64-apple-ios aarch64-apple-ios-sim x86_64-apple-ios
+```
+
+4. Install [cargo-lipo](https://github.com/TimNN/cargo-lipo) for making universal library easily.
+
+```sh
+cargo install cargo-lipo
+```
+
 ## Quick Start
 
 ### Rust + iOS
