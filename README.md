@@ -18,6 +18,16 @@ INFCON 2022 - Rust 크로스 플랫폼 프로그래밍 발표 자료 및 예제 
 
 ## Quick Start
 
+### Rust + iOS
+
+1. Run this command inside the `rust-cross-ios` directory:
+
+```sh
+cargo-lipo --release
+```
+
+2. That's it! You can run iOS example in Xcode.
+
 ### Rust + WebAssembly
 
 1. Run this command inside the `rust-cross-web` directory:
