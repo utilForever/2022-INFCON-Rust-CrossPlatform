@@ -24,22 +24,38 @@ INFCON 2022 - Rust 크로스 플랫폼 프로그래밍 발표 자료 및 예제 
 
 1. Install [Xcode](https://developer.apple.com/xcode/).
 
-2. Install Xcode Command Line Tools.
+2. Install Xcode Command Line Tools:
 
 ```sh
 xcode-select --install
 ```
 
-3. Add iOS architectures to support cross-compile.
+3. Add iOS architectures to support cross-compile:
 
 ```sh
 rustup target add aarch64-apple-ios aarch64-apple-ios-sim x86_64-apple-ios
 ```
 
-4. Install [cargo-lipo](https://github.com/TimNN/cargo-lipo) for making universal library easily.
+4. Install [cargo-lipo](https://github.com/TimNN/cargo-lipo) for making universal library easily:
 
 ```sh
 cargo install cargo-lipo
+```
+
+### Rust + WebAssembly
+
+1. Install [wasm-pack](https://rustwasm.github.io/wasm-pack/) for making WebAssembly binary file easily.
+
+2. Install [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) using homebrew:
+
+```sh
+brew install node
+```
+
+3. Install [yarn](https://yarnpkg.com/) using homebrew:
+
+```sh
+brew install yarn
 ```
 
 ## Quick Start
